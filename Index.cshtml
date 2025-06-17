@@ -1,0 +1,45 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"] | Portfolio</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <!-- Google Fonts for clean styling (optional but recommended) -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">BENIE</div>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="intro">
+            <div class="intro-text">
+                <p>Hello World! I'm</p>
+                <h2>BEST <span class="highlight">SETT</span></h2>
+                <h3>WELCOME! TO MY PORTFOLIO</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="~/images/icon-facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="~/images/icon-linkedin.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="~/images/icon-instagram.svg" alt="Instagram"></a>
+                </div>
+                <button class="hire-btn">Hire me</button>
+            </div>
+            <div class="profile-photo">
+                <img src="~/images/profile.jpg" alt="Profile Photo">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

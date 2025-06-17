@@ -1,0 +1,108 @@
+body {
+    background: #19002c;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #19002c;
+    padding: 20px 60px;
+}
+.logo {
+    font-family: 'Creepster', cursive;
+    font-size: 2rem;
+    color: #fff;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 36px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 4px;
+    border-bottom: 3px solid transparent;
+    transition: border 0.3s;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    color: #b37cff;
+    border-bottom: 3px solid #b37cff;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.intro-text {
+    max-width: 340px;
+}
+.intro-text p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+.intro-text h2 {
+    font-size: 2.2rem;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+}
+.intro-text .highlight {
+    color: #b37cff;
+    font-size: 2.2rem;
+}
+.intro-text h3 {
+    font-size: 1.3rem;
+    margin-top: 1em;
+    font-weight: 700;
+    color: #fff;
+}
+.social-icons {
+    margin: 22px 0;
+}
+.social-icons a img {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.hire-btn {
+    background: none;
+    border: 2px solid #b37cff;
+    color: #b37cff;
+    font-size: 1rem;
+    padding: 10px 32px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.3s, color 0.3s;
+}
+.hire-btn:hover {
+    background: #b37cff;
+    color: #fff;
+}
+.profile-photo img {
+    width: 240px;
+    height: 270px;
+    border-radius: 16px;
+    border: 4px solid #b37cff;
+    background: #fff;
+    object-fit: cover;
+    box-shadow: 0 5px 30px rgba(179,124,255,0.3);
+}
